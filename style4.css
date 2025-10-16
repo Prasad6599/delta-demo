@@ -1,0 +1,28 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:last baseline;
+    flex-wrap: wrap-reverse
+
+    /*align-items: baseline;*/
+    
+    
+}
+#lightpink{
+    /*flex-basis: 400px;*/
+    flex: 2 2 100px;
+    
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+}
